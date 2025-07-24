@@ -60,11 +60,6 @@
         </div>
 
         <div>
-          <label class="block font-medium text-gray-700">Alamat Rumah</label>
-          <input type="text" name="address" class="mt-1 w-full rounded-xl border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-indigo-300 outline-none transition">
-        </div>
-
-        <div>
           <label class="block font-medium text-gray-700">Pesan</label>
           <textarea name="message" required rows="4" class="mt-1 w-full rounded-xl border border-gray-300 px-4 py-3 focus:ring-2 focus:ring-indigo-300 outline-none transition resize-none"></textarea>
         </div>
@@ -80,7 +75,7 @@
 
   {{-- Footer --}}
   <footer class="bg-white text-center py-4 text-gray-500 text-sm border-t">
-    &copy; {{ date('Y') }} My Portofolio Gweh
+    &copy; {{ date('Y') }} My Kisah
   </footer>
 
 </body>

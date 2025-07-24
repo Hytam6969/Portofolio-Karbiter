@@ -9,7 +9,7 @@
 
   <!-- Background gambar -->
   <div class="absolute inset-0 z-0">
-    <img src="{{ asset('image/Yuru Camp△.jpg') }}" alt="Background" class="w-full h-full object-cover blur-sm brightness-90">
+    <img src="{{ asset('image/Yuru Camp△.jpg') }}" alt="Background" class="w-full h-full object-cover blur-sm brightness-75">
   </div>
 
   <!-- Konten utama -->
@@ -55,13 +55,9 @@
             Saya adalah seorang Web Developer yang fokus pada Laravel, Tailwind CSS, dan JavaScript.
             Saya memiliki pengalaman dalam membangun aplikasi web yang responsif dan efisien.
             Saya selalu berusaha untuk terus belajar dan mengembangkan keterampilan saya dalam teknologi web terbaru.
-            Alasan saya memilih laravel ini karena mudah di pahami, dan memiliki banyak fitur yang memudahkan dalam pengemabangan aplikasi web.
+            Alasan saya memilih laravel ini karena mudah di pahami, dan memiliki banyak fitur yang memudahkan dalam pengembangan aplikasi web.
           </p>
-      </div>
-
-      <!--<h1> TENTANG SAYA </h1>
-      <p class="text-lg max-w-2xl text-center">saya adalah seorang web Developer yang fokus pada Laravel, Tailwind CSS, dan JavaScript. saya memiliki pengalaman dalam membangun aplikasi web yang responsif dan efisien. saya selalu berusaha untuk teus belajar dan mengembangkan keterampilan saya dalam teknologi web terbaru.</p>
-    </div>-->
+    </div>
 
   </div>
 </body>
