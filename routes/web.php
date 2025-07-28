@@ -4,6 +4,23 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use App\Models\Contact; 
 
+Route::post('/github-webhook', function () {
+    $secret = env('GITHUB_WEBHOOK_SECRET', 'karbiter123');
+    $signature = request()->header('X-Hub-Signature-256');
+    $payload = file_get_contents('php://input');
+
+    // Verifikasi signature
+    $hash = hash_hmac('sha256', $payload, $secret);
+    if (!hash_equals("sha256=$hash", $signature)) {
+        abort(403, 'Invalid signature.');
+    }
+
+    // Jalankan script deploy
+    $output = shell_exec('bash /var/www/webhooks/deploy.sh 2>&1');
+    \Log::info("Deploy output: " . $output);
+    return response('Deploy triggered!', 200);
+});
+
 // Halaman utama
 Route::view('/', 'home');
 
