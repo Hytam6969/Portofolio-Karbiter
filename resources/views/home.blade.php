@@ -19,7 +19,7 @@
     <img src="{{ asset('image/download.jpg') }}" alt="Foto Profil" class="w-60 h-40 rounded-full mb-4 shadow-lg object-cover">
     
     <!-- Judul -->
-    <h1 class="text-4xl font-bold">Halo, saya Hazar 👋</h1>
+    <h1 class="text-4xl font-bold">Halo, saya Hazarrrr 👋</h1>
     
     <!-- Deskripsi -->
     <p class="text-lg mt-2 max-w-xl text-white">Saya adalah Web Developer yang fokus pada Laravel, Tailwind CSS, dan membangun aplikasi web modern yang cepat dan efisien.</p>
